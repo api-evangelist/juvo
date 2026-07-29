@@ -1,7 +1,14 @@
 aid: juvo
 name: Juvo
-description: Juvo is a company surfaced as a portfolio company of wing-venture-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Juvo is a San Francisco based fintech company, founded in 2014, that provides Financial Identity
+  as a Service (FiDaaS). In partnership with mobile network operators, Juvo uses data science, machine
+  learning, and game mechanics to analyze anonymous prepaid mobile subscriber behavior and build
+  proprietary Identity Scores for the roughly 68% of adults worldwide who lack a formal credit history.
+  Its Identity Stack exposes an API for carriers to derive customer analytics and insights, and powers
+  airtime lending and cash-loan products. Juvo has built over 150 million financial profiles and works
+  with operators and partners including Mastercard, Claro, T-Mobile, Vivo, and TIM across Latin America
+  and beyond. Developer documentation is published on a Stoplight-hosted portal at developers.juvo.com.
 url: https://raw.githubusercontent.com/api-evangelist/juvo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/5f860f5be9fa8ab23a4a198f/5f860f5be9fa8a38c34a1ab3_Favicon_Juvologo_256px.png
 tags:
 - Company
+- Fintech
+- Financial Identity
+- Credit Scoring
+- Financial Services
+- Mobile
+- Underbanked
+- Machine Learning
+- Financial Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/juvo-domain-security.yml
+- type: WellKnown
+  url: well-known/juvo-well-known.yml
 - type: Website
-  url: http://juvo.com/
+  url: https://www.juvo.com/
+- type: DeveloperPortal
+  url: https://developers.juvo.com/
+- type: Documentation
+  url: https://developers.juvo.com/
+- type: APIReference
+  url: https://developers.juvo.com/
+- type: Careers
+  url: https://www.juvo.com/careers
+- type: Blog
+  url: https://www.juvo.com/news-and-events
+- type: LinkedIn
+  url: https://www.linkedin.com/company/juvo
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
