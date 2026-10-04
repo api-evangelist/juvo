@@ -42,15 +42,18 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://cdn.prod.website-files.com/5f860f5be9fa8ab23a4a198f/5f860f5be9fa8a38c34a1ab3_Favicon_Juvologo_256px.png
+x-docs-platform: stoplight
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
 - Company
 - Fintech
 - Financial Identity
 - Credit Scoring
-- Financial-Services
+- Financial Services
 - Mobile
 - Underbanked
-- Machine-Learning
+- Machine Learning
 - Financial Inclusion
 tags_raw:
 - Company
@@ -62,6 +65,8 @@ tags_raw:
 - Underbanked
 - Machine Learning
 - Financial Inclusion
+- Financial-Services
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
